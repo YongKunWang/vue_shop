@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    Hello World!
+    <!--路由占位符号-->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,5 +12,5 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
 </style>
