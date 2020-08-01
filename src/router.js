@@ -6,6 +6,7 @@ import Welcome from './components/Welcome.vue'
 import Users from './components/users/Users.vue'
 import Rights from './components/power/Rights.vue'
 import Roles from './components/power/roles.vue'
+import Category from './components/goods/Category.vue'
 
 Vue.use(Router)
 // 解决：Error: Avoided redundant navigation to current location
@@ -26,7 +27,8 @@ const router = new Router({
         { path: '/welcome', component: Welcome },
         { path: '/users', component: Users },
         { path: '/rights', component: Rights },
-        { path: '/roles', component: Roles }
+        { path: '/roles', component: Roles },
+        { path: '/categories', component: Category }
       ]
     }
   ]
